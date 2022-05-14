@@ -40,6 +40,6 @@ const collectionSchema = new mongoose.Schema({
   updated_date: { type: Date }
 });
 
-const Collection = mongoose.model('Collection', collectionSchema);
+const Collection = mongoose.model('collections', collectionSchema);
 
 export default Collection;
